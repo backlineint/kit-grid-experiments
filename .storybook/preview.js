@@ -14,13 +14,13 @@ const customViewports = {
       height: '100%',
     },
   },
-  md: {
-    name: 'md',
-    styles: {
-      width: '900px',
-      height: '100%',
-    },
-  },
+  // md: {
+  //   name: 'md',
+  //   styles: {
+  //     width: '900px',
+  //     height: '100%',
+  //   },
+  // },
   lg: {
     name: 'lg',
     styles: {
@@ -28,20 +28,20 @@ const customViewports = {
       height: '100%',
     },
   },
-  xl: {
-    name: 'xl',
-    styles: {
-      width: '1400px',
-      height: '100%',
-    },
-  },
-  xxl: {
-    name: 'xxl',
-    styles: {
-      width: '1850px',
-      height: '100%',
-    },
-  },
+  // xl: {
+  //   name: 'xl',
+  //   styles: {
+  //     width: '1400px',
+  //     height: '100%',
+  //   },
+  // },
+  // xxl: {
+  //   name: 'xxl',
+  //   styles: {
+  //     width: '1850px',
+  //     height: '100%',
+  //   },
+  // },
 };
 
 const preview = {

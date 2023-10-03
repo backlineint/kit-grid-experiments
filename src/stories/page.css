@@ -1,3 +1,10 @@
+nav {
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 2rem;
+}
+
 .storybook-page {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
