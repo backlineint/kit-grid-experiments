@@ -22,19 +22,18 @@ export const Page = () => {
         {
           breakpoint: `default`,
           columns: 6,
-          className: `mx-4 border-l border-r border-red-500`,
+          // className: `mx-4 border-l border-r border-red-500`,
+          className: ``
         },
+        { breakpoint: `sm`, columns: 6, className: `` },
         { breakpoint: `md`, columns: 12, className: `` },
-        { breakpoint: `xl`, columns: 16, className: `` },
+        { breakpoint: `lg`, columns: 12, className: `` },
+        { breakpoint: `xl`, columns: 12, className: `` },
+        { breakpoint: `2xl`, columns: 12, className: `` },
       ]}
     />
     <article>
-      <Header
-        user={user}
-        onLogin={() => setUser({ name: 'Jane Doe' })}
-        onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
-      />
+      <nav>Nav</nav>
 
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
