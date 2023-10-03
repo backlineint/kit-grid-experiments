@@ -28,7 +28,7 @@ function GridCols({ className, cols, index, set, color }) {
       {columns.map((col) => (
         <div
           key={col}
-          className={`flex-1 flex items-center justify-center h-full`}
+          className={`first:ml-0 last:mr-0 mx-3 bg-rose-300 opacity-25 flex-1 flex items-center justify-center h-full`}
         >
           {col + 1 === set.columns && (
             <div className="fixed w-full bottom-0 flex justify-center items-center">
@@ -37,9 +37,7 @@ function GridCols({ className, cols, index, set, color }) {
               </code>
             </div>
           )}
-          <div className="transform rotate-90">
-            {col + 1}/{set.columns}
-          </div>
+          <div className="transform rotate-90"></div>
         </div>
       ))}
     </div>
