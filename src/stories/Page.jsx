@@ -21,7 +21,7 @@ export const Page = () => {
       cols={[
         {
           breakpoint: `default`,
-          columns: 12,
+          columns: 6,
           className: `mx-4 border-l border-r border-red-500`,
         },
         { breakpoint: `md`, columns: 12, className: `` },
