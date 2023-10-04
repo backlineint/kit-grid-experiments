@@ -13,7 +13,7 @@ function Grid({ cols, visibleByDefault, color }) {
   if (!gridVisible) return null
 
   return (
-    <section className="fixed inset-0 z-50 pointer-events-none">
+    <section className="fixed inset-0 z-50 pointer-events-none max-w-screen-2xl mx-auto">
       {cols.map((set, index) => (
         <GridCols
           key={set.breakpoint}

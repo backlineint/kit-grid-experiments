@@ -1,8 +1,39 @@
+.container-1 {
+  border: 5px dotted black;
+  background-color: lightslategray;
+}
+
+.container-2 {
+  border: 5px dotted red;
+  max-width: 1728px;
+  margin: auto;
+  background-color: lightgreen;
+}
+
+.container-3 {
+  border: 5px dotted yellow;
+  /* max-width: 1538px; */
+  margin: auto;
+  background-color: lightblue;
+
+}
+
 nav {
   background-color: black;
   color: white;
   height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+nav p {
   font-size: 2rem;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .storybook-page {
